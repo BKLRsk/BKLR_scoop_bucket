@@ -20,7 +20,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/EasyTier/EasyTier/releases/download/v2.0.3/easytier-windows-x86_64-v$version.zip"
+                "url": "https://github.com/EasyTier/EasyTier/releases/download/v$version/easytier-windows-x86_64-v$version.zip"
             }
         }
     }
