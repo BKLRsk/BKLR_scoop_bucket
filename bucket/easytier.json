@@ -17,7 +17,8 @@
     },
     "bin": [
         "easytier-cli.exe",
-        "easytier-core.exe"
+        "easytier-core.exe",
+        "easytier-web.exe"
     ],
     "checkver": "github",
     "autoupdate": {
