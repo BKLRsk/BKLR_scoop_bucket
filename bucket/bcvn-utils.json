@@ -1,0 +1,16 @@
+{
+  "version": "0.1",
+  "description": "Some utils for controlling bcvn",
+  "homepage": "https://github.com/BKLRsk/BKLR_scoop_bucket",
+  "license": "AGPL-3.0-or-later",
+  "notes": "Contact me if any problem occurs, you know who am I.",
+  "architecture": {
+    "64bit": {
+      "url": "https://pub-ce1a083cd5b84b2db5fe1f42a487b7b0.r2.dev/bcvn-utils-v0.1.zip",
+      "hash": "67c71eb1ee5951ad6a86e1166a86cbd8f4b20b54e9a7b957d7513d59f6eb148a"
+    }
+  },
+  "bin": "bcvn-cli.cmd",
+  "extract_dir": "bcvn-utils",
+  "depends": ["nu", "gsudo", "charm-gum", "xray", "nssm", "pueue", "easytier", "kubo", "uutils-coreutils", "scoop-search"]
+}
