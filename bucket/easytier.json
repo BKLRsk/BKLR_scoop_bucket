@@ -18,7 +18,8 @@
     "bin": [
         "easytier-cli.exe",
         "easytier-core.exe",
-        "easytier-web.exe"
+        "easytier-web.exe",
+        "easytier-web-embed.exe"
     ],
     "checkver": "github",
     "autoupdate": {
