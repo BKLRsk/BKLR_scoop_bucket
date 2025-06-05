@@ -7,10 +7,10 @@
   "architecture": {
     "64bit": {
       "url": "https://pub-ce1a083cd5b84b2db5fe1f42a487b7b0.r2.dev/bcvn-utils-v0.1.zip",
-      "hash": "67c71eb1ee5951ad6a86e1166a86cbd8f4b20b54e9a7b957d7513d59f6eb148a"
+      "hash": "b7539337940d60541dbf539338deb53601e44290de048697fd9a2e179023b5a3"
     }
   },
-  "bin": "bcvn-cli.cmd",
+  "bin": ["bcvn-cmd.cmd", "ChooseFileOrFolder.exe"],
   "extract_dir": "bcvn-utils",
-  "depends": ["nu", "gsudo", "charm-gum", "xray", "nssm", "pueue", "easytier", "kubo", "uutils-coreutils", "scoop-search"]
+  "depends": ["nu", "gsudo", "charm-gum", "xray", "nssm", "pueue", "easytier", "kubo", "uutils-coreutils", "scoop-search", "dufs", "curl"]
 }
