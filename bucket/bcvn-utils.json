@@ -7,7 +7,7 @@
   "architecture": {
     "64bit": {
       "url": "https://pub-ce1a083cd5b84b2db5fe1f42a487b7b0.r2.dev/bcvn-utils-v0.1.zip",
-      "hash": "b7539337940d60541dbf539338deb53601e44290de048697fd9a2e179023b5a3"
+      "hash": "9d6d9d95072784b83ad879c28b3b2aa274b4559740b270f2e69e341c033a130b"
     }
   },
   "bin": ["bcvn-cmd.cmd", "ChooseFileOrFolder.exe"],
