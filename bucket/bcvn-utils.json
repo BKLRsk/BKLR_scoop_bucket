@@ -12,6 +12,6 @@
   },
   "bin": ["bcvn-cmd.cmd", "ChooseFileOrFolder.exe"],
   "extract_dir": "bcvn-utils",
-  "persist": "etc",
+  "persist": ["etc", "data"],
   "depends": ["nu", "gsudo", "charm-gum", "xray", "nssm", "pueue", "easytier", "kubo", "uutils-coreutils", "scoop-search", "dufs", "curl"]
 }
