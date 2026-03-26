@@ -1,12 +1,12 @@
 {
-    "version": "7.2",
+    "version": "7.3",
     "description": "Servy lets you run any app as a native Windows service with full control over working directory, startup type, process priority, logging, health checks, pre-launch scripts and parameters.",
     "homepage": "https://servy-win.github.io",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/aelassas/servy/releases/download/v7.2/servy-7.2-net48-x64-installer.exe",
-            "hash": "f1ec9c60a4455236ac72d1f89c061465598177744f7d67dbdaea62e99efce99a"
+            "url": "https://github.com/aelassas/servy/releases/download/v7.3/servy-7.3-net48-x64-installer.exe",
+            "hash": "68f9c2c3f0b0e29463955a7457faad0eb07cafde1ed66db54ec629276a3c0416"
         }
     },
     "innosetup": true,
