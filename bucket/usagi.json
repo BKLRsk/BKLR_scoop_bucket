@@ -1,0 +1,22 @@
+{
+    "version": "1.2.0",
+    "description": "Simple 2D game engine for rapid prototyping with Lua, featuring live reload and cross-platform export.",
+    "homepage": "https://usagiengine.com/",
+    "license": "Unlicense",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/brettchalupa/usagi/releases/download/v1.2.0/usagi-1.2.0-windows-x86_64.zip",
+            "hash": "8849b410807a1b65fd47c838a6a18ca340699cbf34d10baf594613224d28cbee",
+            "extract_to": ""
+        }
+    },
+    "bin": "usagi.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/brettchalupa/usagi/releases/download/v$version/usagi-$version-windows-x86_64.zip"
+            }
+       }
+    }
+}
